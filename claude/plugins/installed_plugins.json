@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "plugins": {
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/aditya.pandey/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-07T06:16:59.953Z",
+        "lastUpdated": "2026-05-07T06:16:59.953Z"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/aditya.pandey/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-07T06:17:17.136Z",
+        "lastUpdated": "2026-05-07T06:17:17.136Z"
+      }
+    ]
+  }
+}

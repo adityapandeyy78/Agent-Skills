@@ -1,0 +1,102 @@
+{
+  "tasks": {
+    "1.1 Remove complex phoneShell CSS selectors that override FormInput's internal structure": {
+      "createdAt": 1776074735467,
+      "updatedAt": 1776074735518,
+      "taskId": "1.1 Remove complex phoneShell CSS selectors that override FormInput's internal structure",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/custom-phone-input-styling/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "3ea8b679-c5fc-4f42-826b-b33c9c8ad95e",
+          "executionId": "81226ba5-5db1-46fc-a22a-1194e35ce049",
+          "timestamp": 1776074735464
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "2.1 Update leftIcon Box component CSS": {
+      "createdAt": 1776074827102,
+      "updatedAt": 1776074827154,
+      "taskId": "2.1 Update leftIcon Box component CSS",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/custom-phone-input-styling/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "da996f03-6e9d-4436-b901-0e1fc5afb0b2",
+          "executionId": "a6163164-189a-4766-aae1-caab70a449bd",
+          "timestamp": 1776074827100
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "2.2 Simplify calling code span CSS": {
+      "createdAt": 1776074827988,
+      "updatedAt": 1776074828031,
+      "taskId": "2.2 Simplify calling code span CSS",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/custom-phone-input-styling/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "da996f03-6e9d-4436-b901-0e1fc5afb0b2",
+          "executionId": "a6163164-189a-4766-aae1-caab70a449bd",
+          "timestamp": 1776074827986
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "2. Simplify leftIcon content layout for country code prefix": {
+      "createdAt": 1776074642856,
+      "updatedAt": 1776074834645,
+      "taskId": "2. Simplify leftIcon content layout for country code prefix",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/custom-phone-input-styling/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "da996f03-6e9d-4436-b901-0e1fc5afb0b2",
+          "executionId": "a6163164-189a-4766-aae1-caab70a449bd",
+          "timestamp": 1776074642855
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "3.1 Test focus/active states match FormInput behavior": {
+      "createdAt": 1776074664371,
+      "updatedAt": 1776074868067,
+      "taskId": "3.1 Test focus/active states match FormInput behavior",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/custom-phone-input-styling/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "79f80f46-09c9-4b46-9ae9-3bd1c4a8b9f4",
+          "executionId": "404c5621-50f7-4a50-b4ee-65ead2bfba3e",
+          "timestamp": 1776074664370
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "1.2 Remove isWideCallingCode conditional logic": {
+      "createdAt": 1776074736209,
+      "updatedAt": 1776074736325,
+      "taskId": "1.2 Remove isWideCallingCode conditional logic",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/custom-phone-input-styling/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "3ea8b679-c5fc-4f42-826b-b33c9c8ad95e",
+          "executionId": "81226ba5-5db1-46fc-a22a-1194e35ce049",
+          "timestamp": 1776074736209
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "1. Simplify formInputCss to remove excessive CSS overrides": {
+      "createdAt": 1776074629370,
+      "updatedAt": 1776074747427,
+      "taskId": "1. Simplify formInputCss to remove excessive CSS overrides",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/custom-phone-input-styling/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "3ea8b679-c5fc-4f42-826b-b33c9c8ad95e",
+          "executionId": "81226ba5-5db1-46fc-a22a-1194e35ce049",
+          "timestamp": 1776074629370
+        }
+      ],
+      "executionStatus": "succeed"
+    }
+  }
+}

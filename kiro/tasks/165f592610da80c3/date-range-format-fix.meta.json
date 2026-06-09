@@ -1,0 +1,102 @@
+{
+  "tasks": {
+    "1. Write bug condition exploration test": {
+      "createdAt": 1777463675598,
+      "updatedAt": 1777463782653,
+      "taskId": "1. Write bug condition exploration test",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/date-range-format-fix/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "ee46fbdc-4b4c-4e8f-b870-16e59d51a299",
+          "executionId": "6f4149db-9881-4dbb-9beb-e8d6f7b76de4",
+          "timestamp": 1777463675594
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "3. Fix for hardcoded date format in From/To range fields": {
+      "createdAt": 1777463824157,
+      "updatedAt": 1777463882016,
+      "taskId": "3. Fix for hardcoded date format in From/To range fields",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/date-range-format-fix/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "ee46fbdc-4b4c-4e8f-b870-16e59d51a299",
+          "executionId": "532d546c-579b-432e-bf57-4843d2d83b08",
+          "timestamp": 1777463824155
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "3.3 Verify preservation tests still pass": {
+      "createdAt": 1777463872992,
+      "updatedAt": 1777463873030,
+      "taskId": "3.3 Verify preservation tests still pass",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/date-range-format-fix/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "ee46fbdc-4b4c-4e8f-b870-16e59d51a299",
+          "executionId": "532d546c-579b-432e-bf57-4843d2d83b08",
+          "timestamp": 1777463872990
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "4. Checkpoint - Ensure all tests pass": {
+      "createdAt": 1777463887598,
+      "updatedAt": 1777463895074,
+      "taskId": "4. Checkpoint - Ensure all tests pass",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/date-range-format-fix/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "ee46fbdc-4b4c-4e8f-b870-16e59d51a299",
+          "executionId": "532d546c-579b-432e-bf57-4843d2d83b08",
+          "timestamp": 1777463887594
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "3.1 Implement the fix": {
+      "createdAt": 1777463830556,
+      "updatedAt": 1777463859195,
+      "taskId": "3.1 Implement the fix",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/date-range-format-fix/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "ee46fbdc-4b4c-4e8f-b870-16e59d51a299",
+          "executionId": "532d546c-579b-432e-bf57-4843d2d83b08",
+          "timestamp": 1777463830555
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "3.2 Verify bug condition exploration test now passes": {
+      "createdAt": 1777463864945,
+      "updatedAt": 1777463864997,
+      "taskId": "3.2 Verify bug condition exploration test now passes",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/date-range-format-fix/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "ee46fbdc-4b4c-4e8f-b870-16e59d51a299",
+          "executionId": "532d546c-579b-432e-bf57-4843d2d83b08",
+          "timestamp": 1777463864939
+        }
+      ],
+      "executionStatus": "succeed"
+    },
+    "2. Write preservation property tests (BEFORE implementing fix)": {
+      "createdAt": 1777463818903,
+      "updatedAt": 1777463818937,
+      "taskId": "2. Write preservation property tests (BEFORE implementing fix)",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/date-range-format-fix/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "ee46fbdc-4b4c-4e8f-b870-16e59d51a299",
+          "executionId": "532d546c-579b-432e-bf57-4843d2d83b08",
+          "timestamp": 1777463818902
+        }
+      ],
+      "executionStatus": "succeed"
+    }
+  }
+}

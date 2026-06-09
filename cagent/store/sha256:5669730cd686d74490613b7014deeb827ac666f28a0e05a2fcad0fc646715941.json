@@ -1,0 +1,13 @@
+{
+  "digest": "sha256:5669730cd686d74490613b7014deeb827ac666f28a0e05a2fcad0fc646715941",
+  "reference": "docker/gordon:latest",
+  "size": 16896,
+  "stored_at": "2026-01-28T13:21:13.016715+05:30",
+  "annotations": {
+    "io.docker.cagent.version": "v1.10.3",
+    "org.opencontainers.image.authors": "Docker, Inc.",
+    "org.opencontainers.image.created": "2026-01-19T10:32:17Z",
+    "org.opencontainers.image.description": "OCI artifact containing gordon.yaml",
+    "org.opencontainers.image.licenses": "commercial"
+  }
+}

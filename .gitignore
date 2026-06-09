@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+
+# Secrets / tokens
+*.token
+*.key
+secrets.*
+
+# Large caches (don't commit these)
+**/cache/
+**/Cache/
+**/node_modules/

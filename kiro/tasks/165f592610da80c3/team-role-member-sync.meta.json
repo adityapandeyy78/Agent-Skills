@@ -1,0 +1,129 @@
+{
+  "tasks": {
+    "3.2 Remove manual setSelectedTeam in new-team.tsx after save": {
+      "createdAt": 1776765705848,
+      "updatedAt": 1776767045186,
+      "taskId": "3.2 Remove manual setSelectedTeam in new-team.tsx after save",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/team-role-member-sync/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "961e6133-a758-47f1-aae2-8ef2d79ed280",
+          "executionId": "b2d1f522-bc6c-48a2-977b-25e27b47db6c",
+          "timestamp": 1776765705844
+        },
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "5634363c-c853-40a7-802b-520f5a2b6f74",
+          "timestamp": 1776766863009
+        }
+      ],
+      "executionStatus": "running"
+    },
+    "3.4 Verify bug condition exploration test now passes": {
+      "createdAt": 1776765718441,
+      "updatedAt": 1776767526241,
+      "taskId": "3.4 Verify bug condition exploration test now passes",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/team-role-member-sync/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "d6283926-79ab-43d7-b2ba-c723e1a38f9c",
+          "executionId": "ea9d3fb2-2b5d-4d8d-b2fc-f7025d5144ef",
+          "timestamp": 1776765718439
+        },
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "5634363c-c853-40a7-802b-520f5a2b6f74",
+          "timestamp": 1776767124603
+        },
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "d6a3c73d-f6a0-43c3-9a94-bef09975f4bd",
+          "timestamp": 1776767502032
+        }
+      ],
+      "pbtTestStatus": {
+        "status": "passed",
+        "lastRunTimestamp": 1776767502077
+      }
+    },
+    "3.1 Eliminate dual data source in view-members-modal": {
+      "createdAt": 1776766592784,
+      "updatedAt": 1776766857672,
+      "taskId": "3.1 Eliminate dual data source in view-members-modal",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/team-role-member-sync/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "5634363c-c853-40a7-802b-520f5a2b6f74",
+          "timestamp": 1776766592783
+        }
+      ],
+      "executionStatus": "running"
+    },
+    "3. Fix for team/role member data synchronization": {
+      "createdAt": 1776765451943,
+      "updatedAt": 1776767699378,
+      "taskId": "3. Fix for team/role member data synchronization",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/team-role-member-sync/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "159709bd-8f10-4d7a-9a39-daf2c471d138",
+          "executionId": "94df8a5e-3a89-4caf-aa0b-0d731b3d8927",
+          "timestamp": 1776765451941
+        },
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "5634363c-c853-40a7-802b-520f5a2b6f74",
+          "timestamp": 1776767699334
+        }
+      ],
+      "executionStatus": "running"
+    },
+    "3.3 Ensure complete cache invalidation across all mutation paths": {
+      "createdAt": 1776765709084,
+      "updatedAt": 1776767118930,
+      "taskId": "3.3 Ensure complete cache invalidation across all mutation paths",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/team-role-member-sync/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "fa609446-6cb9-473e-8cf1-4228998cfd15",
+          "executionId": "152ad15f-78b8-464d-aab4-0656f25afa2b",
+          "timestamp": 1776765709082
+        },
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "5634363c-c853-40a7-802b-520f5a2b6f74",
+          "timestamp": 1776767050210
+        }
+      ],
+      "executionStatus": "running"
+    },
+    "3.5 Verify preservation tests still pass": {
+      "createdAt": 1776765722010,
+      "updatedAt": 1776767693503,
+      "taskId": "3.5 Verify preservation tests still pass",
+      "specUri": "file:///Users/aditya.pandey/Codes/crm-client/.kiro/specs/team-role-member-sync/tasks.md",
+      "executionHistory": [
+        {
+          "chatSessionId": "dfb72ab2-7484-4848-a5dc-0004efbe5886",
+          "executionId": "7132e24a-3005-43df-9aa3-42c8494588dd",
+          "timestamp": 1776765722008
+        },
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "5634363c-c853-40a7-802b-520f5a2b6f74",
+          "timestamp": 1776767532225
+        },
+        {
+          "chatSessionId": "db91d0be-6893-400e-b9b2-45a855e6ddd6",
+          "executionId": "5dd475a3-7563-4352-a2d9-dd3ee7600285",
+          "timestamp": 1776767679372
+        }
+      ],
+      "pbtTestStatus": {
+        "status": "passed",
+        "lastRunTimestamp": 1776767679431
+      }
+    }
+  }
+}
