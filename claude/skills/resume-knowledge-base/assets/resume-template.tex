@@ -1,0 +1,292 @@
+%==============================================================================
+%  CANONICAL RESUME TEMPLATE  (Sakshi Singh's house format)
+%==============================================================================
+%  This is the user's real, working format. Use it as the base. To build/tailor a
+%  resume, EDIT the marked regions below — do NOT redesign the preamble/macros.
+%
+%  EDIT REGIONS (everything else stays):
+%    [HEADER]   name, college line, phone, email, linkedin, github, certs, portfolio
+%    [EDU]      degree, institute, dates, location  (CGPA shown; keep only if >=7/10)
+%    [EXP]      each \resumeSubheading + its \resumeItem bullets
+%    [SKILLS]   the four skill lines
+%    [PROJECTS] each \resumeProjectHeading + bullets
+%    [CASE]     case-study entries (drop whole section for pure Data Analyst / Consulting)
+%    [LEAD]     leadership / extracurricular bullets
+%
+%  SECTION ORDER is role-dependent — see references/role-playbooks.md.
+%  BULLET VOICE — see references/bullet-writing.md (one line, strong, honest).
+%
+%  ATS NOTE: tcolorbox section headers + fontawesome icons + two-column HEADER.
+%  The BODY is single-column (what matters most). Parses fine where recruiters
+%  read the PDF (startups, founder's office, most product/consulting). For strict
+%  enterprise portals (Workday/Taleo/iCIMS) make the ATS-pure variant — see
+%  references/ats-parsing.md. Keep dates "Mon YYYY"; spell acronyms once.
+%==============================================================================
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[scaled=0.97]{newtxsf}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[most]{tcolorbox}
+\usepackage{graphicx}
+\usepackage{array}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!50,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=3pt,
+    arc=0pt,outer arc=0pt,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.9in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% ===================== [HEADER] =====================
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}m{0.55\textwidth}m{0.45\textwidth}@{}}
+{\raggedright
+    {\Huge \bfseries Sakshi Singh} \\[4pt]
+    {\normalsize KCC, NIAMT(Formerly NIFFT), Ranchi}\\
+   {\small \faPhone\ +91-9113722602} \\[-1pt]
+}
+&
+{\raggedleft
+    {\small \faEnvelope\ \href{mailto:sakshisinghpie@gmail.com}{sakshisinghpie@gmail.com}} \\[-1pt]
+    {\small \faLinkedin\ \href{https://www.linkedin.com/in/sakshieee/}{linkedin.com/in/sakshieee}} \\[-1pt]
+    {\small \faGithub\ \href{https://github.com/SakCo}{github.com/SakCo}} \\[-1pt]
+    {\small \faLink\ \href{https://drive.google.com/drive/folders/1jTM1uNhJ4O55P9yxFaUB7vsIdJisuT0l?usp=sharing}{Certifications}}\\[-1pt]
+    \href{https://me-sakshee.vercel.app/}{\raisebox{-0.2\height}\faLink\ {Portfolio}}\\
+}
+\end{tabularx}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\vspace{-10pt}
+\noindent\rule{\textwidth}{1pt}
+
+% ===================== [EDU] =====================
+\vspace{-22pt}
+{\large \textbf{\begin{tcolorbox}\textsc{Education}\end{tcolorbox}}}
+\vspace{-10pt}
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Advanced Manufacturing Technology (NIAMT)}{Nov. 2022 -- June 2026}
+      {Bachelor of Technology in Production and Industrial Engineering (CGPA: 7.0/10)}{Ranchi, Jharkhand}
+\resumeSubHeadingListEnd
+
+% ===================== [EXP] =====================
+\vspace{-25pt}
+{\large \textbf{\begin{tcolorbox}\textsc{Experience}\end{tcolorbox}}}
+\vspace{-12pt}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Founder's Office}{Feb 2026 -- Present}
+{Gentle Money}{In-Office}
+\resumeItemListStart
+\resumeItem{Worked directly with the \textbf{Founder} to drive \textbf{product strategy, business planning, monetization, and growth initiatives}, contributing to key decisions across product, operations, and revenue development.}
+\resumeItem{Led \textbf{market research, competitor benchmarking, pricing analysis, and fintech ecosystem research}; translated insights into \textbf{MRDs, product documentation, feature enhancements, and strategic recommendations} to support product and business growth.}
+\resumeItem{Built \textbf{financial and revenue forecasting models}, designed \textbf{monetization frameworks}, and executed high-impact strategic projects including \textbf{pitch decks, business intelligence reports, investment calculators, and market intelligence initiatives}.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-9pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Data Analyst Intern}{Jun 2025 -- Aug 2025}
+{Analytics Resources}{Remote}
+\resumeItemListStart
+\resumeItem{Integrated \textbf{Product APIs} to extract \textbf{10K+ records}, building \textbf{ETL pipelines} for data cleaning, transformation, and analysis to improve product insights.}
+\resumeItem{Performed \textbf{trend and performance analysis} on seasonal and category data to identify \textbf{profit optimization and pricing opportunities}, driving data-backed \textbf{product strategies}.}
+\resumeItem{Built \textbf{dashboards and recommendation systems} to enable \textbf{data-driven decisions}, enhance \textbf{user experience}, and optimize \textbf{engagement metrics}.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-9pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Growth and Strategy Intern}{Sept 2024 -- Nov 2024}
+{Omelo}{Remote}
+\resumeItemListStart
+\resumeItem{Conducted \textbf{market and competitor analysis} to define product growth opportunities, driving onboarding of 12 influencers and 500+ active users in 6 weeks.}
+\resumeItem{Collaborated with \textbf{cross-functional teams} (Product, Marketing, CX) under the \textbf{Agile framework} to launch engagement initiatives improving retention by 40\%.}
+\resumeItem{Translated \textbf{user insights into product requirements}, contributing to \textbf{feature prioritization, sprint planning}, and a 30\% increase in feature adoption.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ===================== [SKILLS] =====================
+\vspace{-8pt}
+\begin{tcolorbox}\textbf{Skills}\end{tcolorbox}
+\vspace{-12pt}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Analytics:} SQL, Python, Excel, Tableau, Power BI, GA4, Mixpanel, Data Visualization, KPI Tracking \\
+      \textbf{Databases \& Libraries:} MySQL, PostgreSQL, Pandas, NumPy, Matplotlib, Seaborn\\
+      \textbf{Product Sense:} Roadmapping, Wireframing, User Research, MVP, PRD, OKRs, Market \& Retention Analysis, A/B Testing \\
+    \textbf{Tools \& Workflow:} JIRA, Notion, Confluence, Figma, Agile/Scrum, Stakeholder Management, Git/GitHub
+ }}
+  \end{itemize}
+
+% ===================== [PROJECTS] =====================
+\vspace{-12pt}
+\begin{tcolorbox}\textbf{Projects}\end{tcolorbox}
+\vspace{-25pt}
+\resumeSubHeadingListStart
+  \vspace{-3pt}
+    \resumeProjectHeading
+      {\textbf{\href{https://github.com/SakCo/F1-WorldChampDataAnalysis}{F1 World Championship Data Analysis}} \href{https://github.com/SakCo/F1-WorldChampDataAnalysis}{\faGithub} $|$ \emph{Python, Pandas, NumPy, Folium, Matplotlib, Seaborn}}{}
+    \vspace{-17pt}
+\resumeItemListStart
+\resumeItem{Developed an end-to-end \textbf{ETL pipeline} integrating \textbf{25K+} F1 records using Pandas and NumPy for data wrangling and \textbf{statistical analysis}, achieving \textbf{95\%} data accuracy.}
+\resumeItem{Performed \textbf{EDA}, \textbf{outlier detection}, \textbf{time-series} and \textbf{correlation analysis} using \textbf{Matplotlib} and \textbf{Seaborn} to identify performance trends and reduce data anomalies by \textbf{20\%}.}
+\resumeItemListEnd
+
+\vspace{-20pt}
+     \resumeProjectHeading
+{\textbf{\href{https://github.com/SakCo/Employee-Attrition-Analysis}{Employee Attrition Analysis}} \href{https://github.com/SakCo/Employee-Attrition-Analysis}{\faGithub} $|$ \emph{Python, Pandas, NumPy, Matplotlib}}{}
+       \vspace{-17pt}
+\resumeItemListStart
+\resumeItem{Identified higher employee attrition in \textbf{early-tenure}, \textbf{lower-income}, and \textbf{overtime-intensive roles}, with \textbf{compensation}, \textbf{work-life balance}, and \textbf{career growth} emerging as key drivers.}
+\resumeItem{Delivered clear \textbf{data-driven insights} through visual analysis to support \textbf{targeted retention actions} and informed \textbf{workforce planning} decisions.}
+\resumeItemListEnd
+
+\vspace{-20pt}
+      \resumeProjectHeading
+  {\textbf{\href{https://github.com/SakCo/Advance-DataWarehouse-Project}{Advance DataWarehouse Analysis}} \href{https://github.com/SakCo/Advance-DataWarehouse-Project}{\faGithub} $|$ \emph{SQL}}{}
+    \vspace{-17pt}
+\resumeItemListStart
+\resumeItem{Built a scalable \textbf{data warehouse} using Medallion Architecture (Bronze--Silver--Gold) with automated \textbf{ETL pipelines} to transform and validate \textbf{ERP/CRM data} for reliable analytics.}
+\resumeItem{Designed \textbf{star schema dimensional models} and optimized \textbf{SQL queries} to support \textbf{BI reporting}, enabling insights into \textbf{customer segmentation}, \textbf{product profitability}, and \textbf{sales forecasting}.}
+\resumeItemListEnd
+
+\vspace{-7pt}
+\resumeSubHeadingListEnd
+\vspace{-4pt}
+
+% ===================== [CASE] (drop for pure Data Analyst / Consulting) =====================
+\begin{tcolorbox}\textbf{Case Studies}\end{tcolorbox}
+\vspace{-25pt}
+\resumeSubHeadingListStart
+\vspace{15pt}
+\resumeSubheading
+{The Race of AI Trading - Decoding the New Era of Trading \href{https://medium.com/@sakshi.s.singh2003/the-race-of-ai-trading-decoding-the-new-era-of-trading-a69914f7dd2f}{\raisebox{-0.2ex}{\faExternalLink*}{}}}{}
+{}{}
+\vspace{-20pt}
+\resumeItemListStart
+\resumeItem{Explored how AI trading bots disrupt traditional trading with \textbf{speed}, \textbf{precision}, and \textbf{data-driven insights}.}
+\resumeItem{Derived insights on building \textbf{scalable}, \textbf{transparent}, and \textbf{investor-focused} AI trading ecosystems.}
+\resumeItemListEnd
+
+\vspace{-3pt}
+\resumeSubheading
+{Case Study - Redesigning JioMart \href{https://medium.com/@sakshi.s.singh2003/case-study-redesigning-jiomart-the-missed-opportunity-in-indias-online-retail-boom-d09252723b1e}{\raisebox{-0.1ex}{\faExternalLink*}{}}}{}
+{}{}
+\vspace{-20pt}
+\resumeItemListStart
+\resumeItem{Analyzed how JioMart's overexpansion weakened its core grocery focus and \textbf{market positioning}.}
+\resumeItem{\textbf{Proposed} a \textbf{grocery-first product strategy} with enhanced \textbf{UX}, \textbf{kirana integration}, and \textbf{data personalization}.}
+\resumeItem{Outlined a \textbf{scalable roadmap} to boost \textbf{user retention}, \textbf{brand loyalty}, and \textbf{operational efficiency}.}
+\resumeItemListEnd
+
+\vspace{-8pt}
+\resumeSubHeadingListEnd
+
+% ===================== [LEAD] =====================
+\vspace{0pt}
+\begin{tcolorbox}\textbf{Leadership / Extracurricular}\end{tcolorbox}
+\vspace{-12pt}
+\resumeItemListStart
+  \resumeItem{Led cross-college collaboration with \textbf{6 GDSCs}, achieving Tier-2 status while managing PR Strategy.}
+\vspace{-2pt}
+  \resumeItem{Organized and hosted tech and entrepreneurship events with \textbf{500+ participants}, managing overall execution.}
+\resumeItemListEnd
+
+\end{document}
