@@ -1,14 +1,1 @@
-{
-    "mcpServers": {
-        "twigs-ai-mcp": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@sparrowengg/twigs-ai-mcp"
-            ],
-            "env": {
-                "FIGMA_TOKEN": "figd_00tDp85Nq5y3TL5ogTS3PeinlkDa7dyyTYasNgDV"
-            }
-        }
-    }
-}
+
